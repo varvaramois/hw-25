@@ -1,0 +1,35 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+  }
+  .box {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box:nth-child(1) {
+    top: 50px;
+    left: 130px;
+    background-color: #f0747b;
+    z-index: 2;
+  }
+  
+  .box:nth-child(2) {
+    top: 100px;
+    left: 190px;
+    background-color: #726ed0;
+    z-index: 2;
+  }
+  
+  .box:nth-child(3) {
+    top: 150px;
+    left: 250px;
+    background-color: #68ee9b;
+    z-index: 1;
+  }
